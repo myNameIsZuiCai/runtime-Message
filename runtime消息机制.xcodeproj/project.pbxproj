@@ -15,6 +15,7 @@
 		7EAA778C1E652AE100CB6CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA778A1E652AE100CB6CFA /* LaunchScreen.storyboard */; };
 		7EAA77971E652AE100CB6CFA /* runtime____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA77961E652AE100CB6CFA /* runtime____Tests.m */; };
 		7EAA77A21E652AE100CB6CFA /* runtime____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA77A11E652AE100CB6CFA /* runtime____UITests.m */; };
+		7EAA77B11E652C7A00CB6CFA /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA77B01E652C7A00CB6CFA /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7EAA779D1E652AE100CB6CFA /* runtime消息机制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime消息机制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAA77A11E652AE100CB6CFA /* runtime____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime____UITests.m"; sourceTree = "<group>"; };
 		7EAA77A31E652AE100CB6CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAA77AF1E652C7A00CB6CFA /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		7EAA77B01E652C7A00CB6CFA /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7EAA778A1E652AE100CB6CFA /* LaunchScreen.storyboard */,
 				7EAA778D1E652AE100CB6CFA /* Info.plist */,
 				7EAA777C1E652AE100CB6CFA /* Supporting Files */,
+				7EAA77AF1E652C7A00CB6CFA /* person.h */,
+				7EAA77B01E652C7A00CB6CFA /* person.m */,
 			);
 			path = "runtime消息机制";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				7EAA77841E652AE100CB6CFA /* ViewController.m in Sources */,
 				7EAA77811E652AE100CB6CFA /* AppDelegate.m in Sources */,
+				7EAA77B11E652C7A00CB6CFA /* person.m in Sources */,
 				7EAA777E1E652AE100CB6CFA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "runtime消息机制/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "myself.runtime----";
@@ -433,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "runtime消息机制/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "myself.runtime----";
